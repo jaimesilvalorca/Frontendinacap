@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar*/
+
+.headernav{
+    background-color: #fce80e !important;
+    text-decoration: none;
+    color: black !important;
+}
+
+.headernav img{
+    height: 100px;
+    width: 150px;
+}
+
+.headernav a{
+    color: black;
+    text-decoration: none;
+}
+
+main{
+    background-color: rgb(240, 240, 240);
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: grid;
+}
+
+
+footer{
+    background-color: white ;
+    text-align: center;
+    border: 50px !important;
+    border-color: black !important;
+}
+
+
+.title-gallery {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .gallerylist {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .gallerylist li {
+    margin: 5px;
+  }
+  .gallerylist img {
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: inset;
+  }
+  
+  .gallerylist img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.3s ease-out;
+  }
+  
+  .modegallery {
+    display: none;
+  }
+  .modegallery h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+    padding-bottom: 100px;
+  }
+  
+  .modegallery:target {
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .control-gallery {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .control-gallery a {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .control-gallery a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+  }
+  
+  .control-gallery img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid white;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .back-gallery {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+  }
+  
+  .fa-xmark {
+    color: white;
+  }
+  
+  .fa-angle-left {
+    color: white;
+  }
+  
+  .fa-angle-right {
+    color: white;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    .gallerylist img {
+        width: 200px;
+        height: 100%;
+        border-radius: 10px;
+        box-shadow: inset;
+      }
+
+  }
+
+
+
+  @media only screen and (max-width: 576px) {
+
+    .gallerylist img {
+        width: 100px;
+        height: 100%;
+        border-radius: 10px;
+        box-shadow: inset;
+      }
+
+  }
