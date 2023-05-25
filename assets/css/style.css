@@ -12,8 +12,6 @@
 
 .headernav{
     background-color: #070181 !important;
-    text-decoration: none;
-    color: black !important;
 }
 
 .headernav img{
@@ -22,9 +20,11 @@
 }
 
 .headernav a{
-    color: black;
-    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+
 }
+
+
 
 main{
     background-color: rgb(240, 240, 240);
@@ -50,6 +50,8 @@ footer{
     font-size: 50px;
     padding-bottom: 50px;
   }
+
+
   
   .gallerylist {
     width: 90%;
